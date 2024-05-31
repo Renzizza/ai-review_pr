@@ -42,7 +42,7 @@ def code_review(parameters: dict):
 
 
 def make_prompt(dev_lang: str) -> str:
-    review_prompt = f"Review this {dev_lang} code for potential bugs or Code Smells and suggest improvements. Generate your response in markdown format"
+    review_prompt = f"Review this {dev_lang} code for potential bugs or Code Smells and suggest improvements. Refactor the code and Generate your response in markdown format"
 
     return review_prompt
 
